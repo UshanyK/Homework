@@ -72,8 +72,8 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
        - 9 hours (completely recovered by 11:30 PM)
 
 Submit a screen shot of your report and the answer to the questions above.
-![] (Unit_18_SIEM_1/Screenshots/Step_1_Table.png)
-![] (Screenshots/Step_1_Visualization.png)
+![](Unit_18_SIEM_1/Screenshots/Step_1_Table.png)
+![](Screenshots/Step_1_Visualization.png)
 
 ### Step 2: Are We Vulnerable? 
 
@@ -93,9 +93,9 @@ Submit a screen shot of your report and the answer to the questions above.
 3. Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
 
 Submit a screenshot of your report and a screenshot of proof that the alert has been created.
-![] (Screenshots/Step_2_Alert_1png)
-![] (Screenshots/Step_2_Alert_2.png)
-![] (Screenshots/Step_2_Alert_3.png)
+![](Screenshots/Step_2_Alert_1png)
+![](Screenshots/Step_2_Alert_2.png)
+![](Screenshots/Step_2_Alert_3.png)
 
 ### Step 3: Drawing the (base)line
 
@@ -112,14 +112,14 @@ Submit a screenshot of your report and a screenshot of proof that the alert has 
      - Look for the `name` field to find failed logins.
      - Note the attack lasted several hours.
    - For 5 hours between 9 AM and 2 PM
-![] (Screenshots/Step_3_Brute_Force_Attack.png)
+![](Screenshots/Step_3_Brute_Force_Attack.png)
       
 3. Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.
       - Between 8 and 34 events per hour is within range of normal activity. I would set the threshold of more than 40 events per hour for a brute force attack alert.
 4. Design an alert to check the threshold every hour and email the SOC team at SOC@vandalay.com if triggered. 
-![] (Screenshots/Step_3_Alert_1.png)
-![] (Screenshots/Step_3_Alert_2.png)
-![] (Screenshots/Step_3_Alert_3.png)
+![](Screenshots/Step_3_Alert_1.png)
+![](Screenshots/Step_3_Alert_2.png)
+![](Screenshots/Step_3_Alert_3.png)
 
 Submit the answers to the questions about the brute force timing, baseline and threshold. Additionally, provide a screenshot as proof that the alert has been created.
 

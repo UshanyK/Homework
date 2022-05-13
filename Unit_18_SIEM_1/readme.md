@@ -72,7 +72,7 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
        - 9 hours (completely recovered by 11:30 PM)
 
 Submit a screen shot of your report and the answer to the questions above.
-![] (Screenshots/Step_1_Table.png)
+![] (Unit_18_SIEM_1/Screenshots/Step_1_Table.png)
 ![] (Screenshots/Step_1_Visualization.png)
 
 ### Step 2: Are We Vulnerable? 

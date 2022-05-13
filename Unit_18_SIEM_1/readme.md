@@ -94,7 +94,7 @@ Submit a screen shot of your report and the answer to the questions above.
 
 Submit a screenshot of your report and a screenshot of proof that the alert has been created.
 ![](Screenshots/Step_2_Report.png)
-![](Screenshots/Step_2_Alert_1png)
+![](Screenshots/Step_2_Alert_1.png)
 ![](Screenshots/Step_2_Alert_2.png)
 ![](Screenshots/Step_2_Alert_3.png)
 

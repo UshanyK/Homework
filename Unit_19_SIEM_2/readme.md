@@ -38,8 +38,8 @@ Note: This is a public-facing windows server that VSI employees access.
     - request user to invalidate all other existing logged-in sessions
     - password rate limiting such as multiple failed login attempts from the same IP address.
     - password reset links can only be used once**
-![]Images/1.png
-![]Images/2.png
+![](Images/1.png)
+![](Images/2.png)
   
 #### Question 2
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
@@ -60,12 +60,12 @@ Note: This is a public-facing windows server that VSI employees access.
   - Block all incoming HTTP traffic with source IPs from Ukraine, specifically Kiev, Ukraine and Kharkiv, Ukraine.
 
 - Provide a screen shot of the geographic map that justifies why you created this rule. 
-![] Images/3.png
-![] Images/4.png
-![] Images/5.png
-![] Images/6.png
-![] Images/7.png
-![] Images/8.png
+![](Images/3.png)
+![]((Images/4.png)
+![](Images/5.png)
+![](Images/6.png)
+![](Images/7.png)
+![](Images/8.png)
 
 #### Question 2
 

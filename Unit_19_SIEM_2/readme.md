@@ -54,11 +54,11 @@ Note: This is a public-facing windows server that VSI employees access.
 
 #### Question 1
 - Based on the geographic map, recommend a firewall rule that the networking team should implement.
-  - Source: 194.105.145.147 and 79.171.127.34 
-  - Source Port Ranges: Any
-  - Destination Port Ranges: Any
-  - Protocol: TCP
-  - Action: Deny all traffic
+  - ***Source: 194.105.145.147 and 79.171.127.34***
+  - ***Source Port Ranges: Any***
+  - ***Destination Port Ranges: Any***
+  - ***Protocol: TCP***
+  - ***Action: Deny all traffic***
 ![](Images/Kharkiv_IP.png)
 ![](Images/Kiev_IP.png)
 - Provide a "plain english" description of the rule.
@@ -80,7 +80,8 @@ Note: This is a public-facing windows server that VSI employees access.
     - ***Block any IP addresses with the exact same User Agent after 5 or more consecutive POST request have been made. During the attack, the user agent "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 2.0.50727987787; InfoPath.1)" was prevalent in 1,296 events. Prior to the attack there were no events associated to this user agent.***
 
     - ***Block any IP address making a POST request to the login page ("POST /VSI_Account_logon.php HTTP/1.1") after 5 or more consecutive attempts have been made. During the attack, there were 1,296 POST requests made to the login page. Prior to the attack, there was 101 POST requests made to the login page over a 3 day period.***
-
+![](Images/POST_Request.png)
+![](Images/User_Agent.png)
 
 ### Guidelines for your Submission:
   
